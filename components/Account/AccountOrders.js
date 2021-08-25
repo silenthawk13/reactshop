@@ -74,6 +74,7 @@ function AccountOrders({ orders }) {
         </Segment>
       ) : (
         <Accordion
+          TransitionProps={{ unmountOnExit: true }}
           fluid
           styled
           exclusive={false}
